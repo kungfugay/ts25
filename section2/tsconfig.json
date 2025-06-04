@@ -3,7 +3,8 @@
     "target": "esnext",           // js 컴파일 버전
     "module": "esnext",           // ES 모듈 시스템 사용
     "outDir": "dist",             // js 컴파일 내보내기 저장 위치
-    "strict": true,               // 엄격한 타입 검사 모드
+    "strict": true,               // 엄격한 타입 검사 모드 (상위 옵션)
+    //"strictNullChecks": false,    // null 타입이 아닌 변수에 null을 넣을지 허용
     "moduleDetection": "force",   // 개별 모듈 사용
     "skipLibCheck": true          // undici-types 관련 오류
 
