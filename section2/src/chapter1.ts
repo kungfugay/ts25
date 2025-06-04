@@ -17,9 +17,9 @@ let str2:string = `hello`;
 let str3:string = 'hello';
 let str4:string = `hello ${num1}`;
 
-str1 = 123;
+//str1 = 123;
 str1.toUpperCase();
-str1.toFixed();
+//str1.toFixed();
 
 // boolean
 let bool1: boolean = true;
@@ -35,5 +35,17 @@ let unde1: undefined = undefined;
 // ========================================
 // strictNullCheck 
 // let numA: number = null; 
+
+// ========================================
+// 리터럴 타입 : 원시 타입 중의 하나로 타입을 지정할 수 있고,
+// 다른 값을 넣으면 오류가 발생함.
+
+let numA: 10 = 10;
+//numA = 12;
+numA = 10;
+
+let strA: "hello" = "hello";
+
+//let boolA: true = false;
 
 
