@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",           // js 컴파일 버전
+    "module": "esnext",           // ES 모듈 시스템 사용
+    "outDir": "dist",             // js 컴파일 내보내기 저장 위치
+    "strict": true,               // 엄격한 타입 검사 모드
+    "moduleDetection": "force",   // 개별 모듈 사용
+    "skipLibCheck": true          // undici-types 관련 오류
+
+  },
+  "ts-node": {
+    "esm": true                   // ts-node 사용
+  },
+  "include": ["src"]              // tsc 컴파일 시 ts 파일 위치 경로 저장
+}
