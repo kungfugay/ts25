@@ -1,5 +1,6 @@
 // any
 // 특정 변수의 타입을 우리가 확실히 모를 때 (범용적 사용)
+// 타입 검사를 비활성화
 let anyVar: any = 10;
 anyVar = "hello";
 
@@ -17,6 +18,7 @@ num = anyVar;
 
 // unknown 타입
 // 어떤 타입의 값이든 다 저장 가능
+// 다른 타입에 할당하거나 사용하려면 명시적인 타입 확인 과정이 필요
 let unknownVar: unknown;
 
 unknownVar = "";
